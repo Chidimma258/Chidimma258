@@ -33,19 +33,12 @@ font-weight: bold;
 }
 
 
-.nav-item::after{
-  content: "";
-  height: 3px;
-  width:0;
-  background: rgb(0, 255, 179);
-  position: absolute;
-  transition: 0.5s;
-  align-content: center;
-}
 .gradient1-img{
   right: 0;
 }
-
+.trophy-bg{
+  border-radius: 5px;
+}
 .gradient1-blue{
   bottom: 56px;
   right: 0;
@@ -130,12 +123,17 @@ right: 0;
   background:linear-gradient(to right,rgb(240, 26, 62) 50%, rgb(255, 81, 0) 100%);
   border-radius: 2rem;
 }
+.ape-img{
+  border-radius: 1rem;
+}
 
-.time-img{
+.time-im{
     display: flex;
     object-fit: none;
     align-self: center;
-    bottom: 80px;
+    position: absolute;
+    bottom: 110px;
+    border-radius: 7px;
 }
 
 .medal-img {
@@ -181,7 +179,9 @@ right: 0;
   width: 50%;
   right: 0;
 }
-
+.section-F{
+  background: rgb(1, 1, 77);
+}
 .span-hero{
   color: rgb(240, 26, 62);
 }
@@ -208,19 +208,42 @@ right: 0;
 .sectionZ{
   position: sticky;
   padding:1rem;
+  margin: none;
   height: 100%;
   width: 100%;
-  background-color: rgb(187, 187, 226);
-
+  
+}
+.nft-img{
+  height: 345px;
+  border-radius: 7px;
+}
+.s-im{
+  width: 230px;
+}
+.logo-txt{
+  color: rgb(243, 67, 2);
+}
+.seven-txt{
+  color: rgb(238, 142, 52);
+}
+.seven-tx{
+  color: rgb(31, 78, 233);
+}
+.s-btn{
+  display: flex;
+  align-self: center;
 }
 
 @media(max-width: 678px){
    .txt-h{
     position: absolute;
     font-weight: bolder;
-    font-size: 11rem;
+    font-size: 10rem;
     z-index: 0;
     opacity: 0.4;
     top: 210px;
   } 
 }
+
+    
+  
