@@ -36,8 +36,24 @@ font-weight: bold;
 .gradient1-img{
   right: 0;
 }
+
 .trophy-bg{
   border-radius: 5px;
+}
+
+.trophy-bg2{
+  border-radius: 5px;
+  background: crimson;
+}
+
+.trophy-bg3{
+  border-radius: 5px;
+  background: rgb(11, 129, 138);
+}
+
+.trophy-bg4{
+  border-radius: 5px;
+  background: orangered;
 }
 .gradient1-blue{
   bottom: 56px;
@@ -45,10 +61,6 @@ font-weight: bold;
   bottom: 0;
 }
 
-.counter-img{
-  bottom: 103px;
-  /* margin: 1rem; */
-}
 
 .wish-img{
   position: absolute;
@@ -135,7 +147,16 @@ right: 0;
     bottom: 110px;
     border-radius: 7px;
 }
-
+.navbar{
+  position: fixed;
+}
+.counter-btn{
+  background:linear-gradient(to right,rgb(240, 26, 62) 50%, rgb(255, 81, 0) 100%);
+  border-radius: 2rem;
+  position: absolute;
+  margin-left: 1rem;
+  bottom: 210px;
+}
 .medal-img {
   position: absolute;
   top: 150px;
@@ -205,8 +226,17 @@ right: 0;
   border-radius: 2rem;
 }
 
+.txt-blue{
+  color: rgb(41, 231, 212);
+}
+
+.wallet-icon{
+  cursor: pointer;
+ border-radius: 2rem;
+ border-color:blue ;
+border: 2px solid;
+}
 .sectionZ{
-  position: sticky;
   padding:1rem;
   margin: none;
   height: 100%;
